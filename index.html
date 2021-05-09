@@ -1,19 +1,29 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
 
-  <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
-  <h1>InnerHTML & outerHTML</h1>
+  <div class="container">
+    <div class="header">
+      <h1>InnerHTML & outerHTML</h1>
 
-  <div class="greeting">
-    <p>Hello World!</p>
+      <div class="greeting">
+        <p>Hello World!</p>
+      </div>
+    </div>
+    <div class="display">
+      <div class="code"></div>
+      <div id="inner"></div>
+      <div id="outer">
+        <div class="outer-code"></div>
+        <div class="outer-html"></div>
+      </div>
+    </div>
   </div>
-  <div id="result"></div>
-
   <script src="script.js"></script>
 </body>
 
